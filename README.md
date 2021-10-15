@@ -2,7 +2,7 @@ Esse é um projeto de um jogo de adivinhação para os exercícios bônus de `RT
 
 ### Antes de iniciar
 
-Crie um fork ([https://github.com/UNIVALI-LITE/Portugol-Studio/wiki/Fazendo-um-Fork-do-repositório](https://github.com/UNIVALI-LITE/Portugol-Studio/wiki/Fazendo-um-Fork-do-reposit%C3%B3rio)) do repositório do exercício ([https://github.com/adilsongb/exercise-guess-the-number](https://github.com/adilsongb/exercise-guess-the-number)) e clone o repositório.
+Crie um [fork](https://github.com/UNIVALI-LITE/Portugol-Studio/wiki/Fazendo-um-Fork-do-reposit%C3%B3rio) do [repositório do exercício](https://github.com/adilsongb/exercise-guess-the-number) e clone o repositório.
 
 Rode o comando `npm install` na pasta do projeto.
 
