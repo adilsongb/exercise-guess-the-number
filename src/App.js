@@ -57,8 +57,12 @@ class App extends React.Component {
             { revelNum ? number : '?' }
           </h1>
           <div className="scores">
-            <div>{ `${hits} ✔️` }</div>
-            <div>{ `❌ ${miss}` }</div>
+            <div>
+              <span>{hits}</span> ✔️
+            </div>
+            <div>
+            ❌ <span>{miss}</span>
+            </div>
           </div>
           <div className="response-input">
             <input
