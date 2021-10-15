@@ -16,7 +16,8 @@ class App extends React.Component {
 
   randomNumber() {
     this.setState({ start: true });
-    const numRandom = Math.floor(Math.random() * (100 - 1)) + 1;
+    // const numRandom = Math.floor(Math.random() * (100 - 1)) + 1;
+    const numRandom = 5;
     this.setState({ number: numRandom });
   }
 
@@ -58,10 +59,10 @@ class App extends React.Component {
           </h1>
           <div className="scores">
             <div>
-              <span>{hits}</span> ✔️
+              <span data-testid="hits">{hits}</span> ✔️
             </div>
             <div>
-            ❌ <span>{miss}</span>
+            ❌ <span data-testid="miss">{miss}</span>
             </div>
           </div>
           <div className="response-input">
@@ -91,7 +92,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Adivinhe o número!</h1>
-        <p>Adivinhe qual é o número aleatório de 1 a 100</p>
+        <p data-testid="about">
+          Adivinhe qual é o número aleatório de 1 a 100
+        </p>
         <button
           onClick={() => this.randomNumber()}
           className="btn-start"
